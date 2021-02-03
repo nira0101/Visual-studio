@@ -61,3 +61,24 @@ main h1 {
   font-family: var(--secondary-font);
   font-size: 20px;
 }
+
+.hide {
+  display: none;
+}
+
+.modal-background {
+  position: fixed;
+  z-index: 10;
+  left: 424px;
+  top: 277px;
+  width: 47.5%;
+  height: 100%;
+}
+
+.modal-content {
+  background-color: lightgray;
+  border: 0.5px solid lightgray;
+  margin: 1em;
+  padding: 2em;
+  height: 20vw;
+}
